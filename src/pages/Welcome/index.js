@@ -2,16 +2,16 @@ import React from 'react';
 import { View, StatusBar, Image, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
 import * as Animatable from 'react-native-animatable';
-import {useNavigation} from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 
 export const Welcome = () => {
     const navigation = useNavigation();
-    
+
     return (
         <View style={styles.container}>
             <StatusBar backgroundColor='#38A69D' />
             <View style={styles.containerHeader}>
-                <Animatable.Image source={require('../../assets/logo.png')} animation={'flipInY'} />
+                <Animatable.Image source={require('../../assets/logo.png')} animation={'flipInY'} delay={500} />
             </View>
 
             <Animatable.View style={styles.containerFooter} animation={'fadeInUp'} delay={600}>
