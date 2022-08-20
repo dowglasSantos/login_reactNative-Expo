@@ -17,6 +17,8 @@ export const SignIn = () => {
                     placeholder='Informe seu email...'
                     keyboardType='email-address'
                     placeholderTextColor='#ccc'
+                    autoComplete='email'
+                    autoCapitalize='none'
                 />
 
                 <Text style={styles.titleInput}>Senha</Text>
@@ -25,6 +27,8 @@ export const SignIn = () => {
                     placeholder='Informe sua senha..'
                     secureTextEntry={true}
                     placeholderTextColor='#ccc'
+                    keyboardType='numeric'
+                    maxLength={6}
                 />
 
                 <TouchableOpacity style={styles.bottom}>

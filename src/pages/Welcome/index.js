@@ -15,7 +15,7 @@ export const Welcome = () => {
             </View>
 
             <Animatable.View style={styles.containerFooter} animation={'fadeInUp'} delay={600}>
-                <Text style={styles.title}>Monitore, organize seus dados de qualquer lugar!</Text>
+                <Text style={styles.title}>Monitore, organize seus gastos de qualquer lugar!</Text>
                 <Text style={styles.subTitle}>Faça seu login para começar</Text>
                 <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('SignIn')}>
                     <Text style={styles.textButton}>Acessar</Text>
