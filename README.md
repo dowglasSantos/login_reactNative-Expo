@@ -1,4 +1,4 @@
-## Pagina de login feita em Expo
+## Pagina de login feita em React Native (Expo)
 
 ### Conceitos utilizados:
 
